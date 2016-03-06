@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9CD700CC1C888972006389CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700CB1C888972006389CC /* AppDelegate.swift */; };
-		9CD700CE1C888972006389CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700CD1C888972006389CC /* ViewController.swift */; };
 		9CD700D11C888972006389CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD700CF1C888972006389CC /* Main.storyboard */; };
 		9CD700D31C888972006389CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD700D21C888972006389CC /* Assets.xcassets */; };
 		9CD700D61C888972006389CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD700D41C888972006389CC /* LaunchScreen.storyboard */; };
 		9CD700DE1C888C50006389CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700DD1C888C50006389CC /* LoginViewController.swift */; };
+		9CD700E01C88BBF0006389CC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700DF1C88BBF0006389CC /* PhotosViewController.swift */; };
+		9CD700E21C88BC85006389CC /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700E11C88BC85006389CC /* PhotoCell.swift */; };
+		9CD700E61C8B7201006389CC /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700E51C8B7201006389CC /* PostingViewController.swift */; };
+		9CD700E81C8B76B2006389CC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700E71C8B76B2006389CC /* ProfileViewController.swift */; };
+		9CD700EA1C8B77C2006389CC /* UserMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD700E91C8B77C2006389CC /* UserMedia.swift */; };
 		BB866C983A6A0DD73008FF9F /* Pods_InstagramApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FD3F30B8B9FA92C764386D /* Pods_InstagramApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +26,16 @@
 		9300196248CCE4A60526F042 /* Pods-InstagramApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramApp/Pods-InstagramApp.release.xcconfig"; sourceTree = "<group>"; };
 		9CD700C81C888972006389CC /* InstagramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD700CB1C888972006389CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CD700CD1C888972006389CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CD700D01C888972006389CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD700D21C888972006389CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD700D51C888972006389CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CD700D71C888972006389CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CD700DD1C888C50006389CC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9CD700DF1C88BBF0006389CC /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		9CD700E11C88BC85006389CC /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		9CD700E51C8B7201006389CC /* PostingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		9CD700E71C8B76B2006389CC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9CD700E91C8B77C2006389CC /* UserMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMedia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				9CD700CB1C888972006389CC /* AppDelegate.swift */,
-				9CD700CD1C888972006389CC /* ViewController.swift */,
 				9CD700CF1C888972006389CC /* Main.storyboard */,
 				9CD700D21C888972006389CC /* Assets.xcassets */,
 				9CD700D41C888972006389CC /* LaunchScreen.storyboard */,
 				9CD700D71C888972006389CC /* Info.plist */,
 				9CD700DD1C888C50006389CC /* LoginViewController.swift */,
+				9CD700DF1C88BBF0006389CC /* PhotosViewController.swift */,
+				9CD700E11C88BC85006389CC /* PhotoCell.swift */,
+				9CD700E51C8B7201006389CC /* PostingViewController.swift */,
+				9CD700E71C8B76B2006389CC /* ProfileViewController.swift */,
+				9CD700E91C8B77C2006389CC /* UserMedia.swift */,
 			);
 			path = InstagramApp;
 			sourceTree = "<group>";
@@ -214,7 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD700DE1C888C50006389CC /* LoginViewController.swift in Sources */,
-				9CD700CE1C888972006389CC /* ViewController.swift in Sources */,
+				9CD700EA1C8B77C2006389CC /* UserMedia.swift in Sources */,
+				9CD700E61C8B7201006389CC /* PostingViewController.swift in Sources */,
+				9CD700E21C88BC85006389CC /* PhotoCell.swift in Sources */,
+				9CD700E01C88BBF0006389CC /* PhotosViewController.swift in Sources */,
+				9CD700E81C8B76B2006389CC /* ProfileViewController.swift in Sources */,
 				9CD700CC1C888972006389CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
